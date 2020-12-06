@@ -1,0 +1,164 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+span {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #00BFBF;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 2.5rem
+}
+
+h2 {
+  color: #00BFBF;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #00BFBF;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #00BFBF;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-weight: bolder;
+}
+
+/**********************************************************top-container*******************************************************/
+.top-container {
+  position: relative;
+  padding: 100px;
+  background-color: #C6FCED;
+  /***********241 n colourhunt.com**************/
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+/************************middle-container**********************************************************************************************/
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skills {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.noddy-car-image {
+  height: 150px;
+  width: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.noddy-gif-image {
+  height: 150px;
+  width: auto;
+  float: right;
+  margin-right: 20px;
+}
+
+.noddy-profile-image {
+  height: 150px;
+  width: auto;
+}
+
+.My-skills-center {
+  text-align: center;
+}
+
+.space-gif {
+  margin-top: 50px;
+  color: #bdb76b;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  margin-bottom: 50px;
+}
+
+.top-hr {
+  color: #bdb76b;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+.contact-me{
+  width:30%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #87cefa;
+  padding: 50px 0 20px 0;
+}
+
+.smaller {
+  color: white;
+  font-size: .75em;
+}
+
+.btn {
+  background: #00BFBF;
+  ;
+  background-image: -webkit-linear-gradient(top, #00BFBF; , #2980b9);
+  background-image: -moz-linear-gradient(top, #00BFBF; , #2980b9);
+  background-image: -ms-linear-gradient(top, #00BFBF; , #2980b9);
+  background-image: -o-linear-gradient(top, #00BFBF; , #2980b9);
+  background-image: linear-gradient(to bottom, #00BFBF; , #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0b0c0d;
+  background-image: -webkit-linear-gradient(top, #0b0c0d, #fac5c5);
+  background-image: -moz-linear-gradient(top, #0b0c0d, #fac5c5);
+  background-image: -ms-linear-gradient(top, #0b0c0d, #fac5c5);
+  background-image: -o-linear-gradient(top, #0b0c0d, #fac5c5);
+  background-image: linear-gradient(to bottom, #0b0c0d, #fac5c5);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: black;
+}
